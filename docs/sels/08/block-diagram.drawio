@@ -1,0 +1,733 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="sw08-block-diagram-01" id="EnpmJ-kaH1oYU0R1BoUV">
+    <mxGraphModel dx="2917" dy="2560" grid="1" gridSize="5.9055" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="sdDybBoo61rfXJUbzvR_-89" parent="0" style="locked=1;" value="workarea" visible="0" />
+        <mxCell id="sdDybBoo61rfXJUbzvR_-178" parent="sdDybBoo61rfXJUbzvR_-89" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCCCFF;" value="" vertex="1">
+          <mxGeometry height="1169.29" width="41.34" y="-1169" as="geometry" />
+        </mxCell>
+        <mxCell id="sdDybBoo61rfXJUbzvR_-179" parent="sdDybBoo61rfXJUbzvR_-89" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCCCFF;" value="" vertex="1">
+          <mxGeometry height="1169.29" width="41.34" x="786" y="-1169" as="geometry" />
+        </mxCell>
+        <mxCell id="sdDybBoo61rfXJUbzvR_-180" parent="sdDybBoo61rfXJUbzvR_-89" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCCCFF;" value="" vertex="1">
+          <mxGeometry height="59.06" width="744.66" x="41.670000000000016" y="-1169" as="geometry" />
+        </mxCell>
+        <mxCell id="sdDybBoo61rfXJUbzvR_-181" parent="sdDybBoo61rfXJUbzvR_-89" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCCCFF;" value="" vertex="1">
+          <mxGeometry height="59.06" width="750" x="39" y="-58.76999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="1" parent="0" style="locked=0;" value="diagram" />
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-105" parent="1" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;spacingLeft=12;align=left;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;" value="Input.txt" vertex="1">
+          <mxGeometry height="46.82" width="94.1" x="566.9300000000001" y="-1086.21" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-106" parent="1" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;spacingLeft=12;align=left;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;" value="Output.txt" vertex="1">
+          <mxGeometry height="46.82" width="94.1" x="685.0400000000001" y="-1086" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-107" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=10;perimeterSpacing=0;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;" value="начало" vertex="1">
+          <mxGeometry height="23.62" width="94.63" x="70.87" y="-1104.33" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-109" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;" target="tkKnhvlqo3PEV-MtO_nO-105">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="195" y="-1098" />
+              <mxPoint x="614" y="-1098" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-108" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=left;spacing=3.937;spacingLeft=2;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;" value="объявить константы&lt;div&gt;iFile = Input.txt&lt;/div&gt;&lt;div&gt;oFile = Output.txt&lt;/div&gt;" vertex="1">
+          <mxGeometry height="47.61" width="129.92" x="70.86999999999999" y="-1062.9899999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-110" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;" target="tkKnhvlqo3PEV-MtO_nO-106">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="189" y="-1104" />
+              <mxPoint x="732" y="-1104" />
+            </Array>
+            <mxPoint x="413" y="-985" as="sourcePoint" />
+            <mxPoint x="838" y="-1032" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-112" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;align=left;spacing=0;spacingTop=0;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;spacingLeft=22;fontSize=10;" value="&lt;span&gt;объявить&lt;/span&gt;&lt;br&gt;&lt;div&gt;length = 10 + rand() % 21&lt;/div&gt;" vertex="1">
+          <mxGeometry height="35.43" width="188.97" x="53.150000000000006" y="-1003.9399999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-113" connectable="0" parent="1" style="group;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;labelBackgroundColor=none;fontSize=10;" value="" vertex="1">
+          <mxGeometry height="47.24" width="224.41" x="242.13" y="-1009.8399999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-114" parent="tkKnhvlqo3PEV-MtO_nO-113" style="strokeWidth=1.1810999999999998;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="" vertex="1">
+          <mxGeometry height="47.24000000000001" width="49.874753057384744" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-115" parent="tkKnhvlqo3PEV-MtO_nO-113" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;spacingLeft=7.874;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;spacingBottom=3.937;labelBackgroundColor=default;fontSize=10;" value="&lt;span style=&quot;text-align: center;&quot;&gt;rand()&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;— случайное число&lt;/span&gt;" vertex="1">
+          <mxGeometry height="39.37111236589497" width="158.13" x="24.94" y="3.9344438170525127" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-116" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;align=left;spacingLeft=16;" value="вывод&amp;nbsp;&quot;Количество элементов последовательности:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="23.63" width="307.09" x="53.15" y="-956.6899999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-117" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;align=left;spacingLeft=16;" value="вывод&amp;nbsp;&lt;span&gt;length&lt;/span&gt;" vertex="1">
+          <mxGeometry height="23.63" width="112.2" x="360.24" y="-956.6899999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-118" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-116" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;" target="tkKnhvlqo3PEV-MtO_nO-117">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="277.2800000000001" y="-732.0300000000001" as="sourcePoint" />
+            <mxPoint x="439.2800000000001" y="-732.0300000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-119" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;align=left;spacingLeft=16;" value="вывод&amp;nbsp;&quot;Сгенерированная последовательность:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="23.63" width="277.56" x="53.15" y="-921.25" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-120" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=left;spacing=3.937;spacingLeft=2;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;" value="объявить&lt;br&gt;&lt;div&gt;positiveSum&amp;nbsp; &amp;nbsp;= 0,&lt;/div&gt;&lt;div&gt;positiveCount = 0&lt;/div&gt;" vertex="1">
+          <mxGeometry height="47.61" width="129.92" x="70.87" y="-885.8199999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-122" parent="1" style="shape=loopLimit;whiteSpace=wrap;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="&lt;span&gt;для i = 0; пока i &amp;lt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;length&lt;/span&gt;&lt;span&gt;; выполнять i += 1&lt;/span&gt;" vertex="1">
+          <mxGeometry height="17.71" width="271.09" x="53.329999999999984" y="-826.77" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-123" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;spacing=9.8425;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;объявить&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;number = rand() % 101 - 50&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="29.53" width="160.01" x="53.150000000000006" y="-803.7199999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-124" connectable="0" parent="1" style="group;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="" vertex="1">
+          <mxGeometry height="17.73" width="198.84" x="123.28999999999996" y="-643.6999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-125" parent="tkKnhvlqo3PEV-MtO_nO-124" style="shape=loopLimit;whiteSpace=wrap;html=1;rotation=-180;horizontal=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="" vertex="1">
+          <mxGeometry height="17.73" width="263.8417873941675" x="-66.28311759172156" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-126" parent="tkKnhvlqo3PEV-MtO_nO-124" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;spacingBottom=4;" value="для i = 0; пока i &amp;lt; length; выполнять i += 1" vertex="1">
+          <mxGeometry height="17.73" width="266.40444778927565" x="-67.56444778927565" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-133" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-128" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;edgeStyle=orthogonalEdgeStyle;" target="tkKnhvlqo3PEV-MtO_nO-126">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="71.18" y="-673.8" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-201" connectable="0" parent="tkKnhvlqo3PEV-MtO_nO-133" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="Нет" vertex="1">
+          <mxGeometry relative="1" x="-0.0318" as="geometry">
+            <mxPoint y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-135" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-128" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;edgeStyle=elbowEdgeStyle;elbow=vertical;" target="tkKnhvlqo3PEV-MtO_nO-132">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="197" y="-674" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-136" connectable="0" parent="tkKnhvlqo3PEV-MtO_nO-135" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="Да" vertex="1">
+          <mxGeometry relative="1" x="-0.0277" as="geometry">
+            <mxPoint x="-3" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-128" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="number &amp;gt; 0" vertex="1">
+          <mxGeometry height="35.44" width="94.49" x="86.57999999999998" y="-691.4999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-129" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;align=left;spacingLeft=16;" value="вывод number + &quot; &quot;" vertex="1">
+          <mxGeometry height="23.63" width="135.83" x="65.91999999999999" y="-762.37" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-131" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" target="tkKnhvlqo3PEV-MtO_nO-105">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="396" y="-715" />
+              <mxPoint x="396" y="-921" />
+              <mxPoint x="484" y="-921" />
+              <mxPoint x="484" y="-1063" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-138" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-130" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tkKnhvlqo3PEV-MtO_nO-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-130" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;align=left;spacingLeft=16;" value="ввод&amp;nbsp; &amp;nbsp;number + &quot; &quot;" vertex="1">
+          <mxGeometry height="23.63" width="141.72" x="62.28999999999999" y="-726.93" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-137" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-132" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;edgeStyle=elbowEdgeStyle;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" target="tkKnhvlqo3PEV-MtO_nO-126">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="307.18" y="-649.8" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-132" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=left;spacing=9.8425;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;" value="&lt;div&gt;positiveSum&amp;nbsp; &amp;nbsp;+= number,&lt;/div&gt;&lt;div&gt;positiveCount +=&amp;nbsp;positiveCount&lt;/div&gt;" vertex="1">
+          <mxGeometry height="29.53" width="183.07" x="213.16" y="-685.04" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-139" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-129" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tkKnhvlqo3PEV-MtO_nO-130">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="138.46" y="-691.8" as="sourcePoint" />
+            <mxPoint x="137.46" y="-673.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-140" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-123" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tkKnhvlqo3PEV-MtO_nO-129">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="174.46" y="-732.8" as="sourcePoint" />
+            <mxPoint x="174.46" y="-714.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-143" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" target="tkKnhvlqo3PEV-MtO_nO-123">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="133.155" y="-809.06" as="sourcePoint" />
+            <mxPoint x="239.46" y="-596.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-144" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="positiveCount &amp;gt; 0" vertex="1">
+          <mxGeometry height="47.66" width="141.33" x="118.21000000000004" y="-614.17" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-145" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=left;spacing=9.8425;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;" value="&lt;div&gt;объявить&lt;/div&gt;&lt;div&gt;average = positiveSum / positiveCount&lt;/div&gt;" vertex="1">
+          <mxGeometry height="29.53" width="224.4" x="76.66999999999999" y="-561.02" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-146" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;align=left;spacingLeft=22;" value="вывод&amp;nbsp;&quot;Среднее арифметическое положительных элементов:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="23.63" width="348.43" x="59.23000000000002" y="-520.09" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-204" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tkKnhvlqo3PEV-MtO_nO-165">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="461" y="-543" />
+              <mxPoint x="461" y="-614" />
+              <mxPoint x="402" y="-614" />
+              <mxPoint x="402" y="-915" />
+              <mxPoint x="490" y="-915" />
+              <mxPoint x="490" y="-1001" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-147" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;align=left;spacingLeft=14;" value="вывод average" vertex="1">
+          <mxGeometry height="29.53" width="112.21" x="342.52000000000004" y="-561.02" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-148" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-146" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;edgeStyle=elbowEdgeStyle;" target="tkKnhvlqo3PEV-MtO_nO-147">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="-526" />
+            </Array>
+            <mxPoint x="275.4600000000001" y="-295.4300000000002" as="sourcePoint" />
+            <mxPoint x="437.46000000000004" y="-295.4300000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-149" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;align=left;spacingLeft=16;" value="&amp;nbsp;вывод&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;Положительные&lt;/span&gt;&lt;div&gt;&amp;nbsp;элементы отсутствуют.&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="35" width="171.08" x="283.64" y="-607.84" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-150" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-144" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;edgeStyle=orthogonalEdgeStyle;" target="tkKnhvlqo3PEV-MtO_nO-145">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="94.18" y="-590.15" />
+            </Array>
+            <mxPoint x="230.18" y="-631.49" as="sourcePoint" />
+            <mxPoint x="231.18" y="-590.4899999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-151" connectable="0" parent="tkKnhvlqo3PEV-MtO_nO-150" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="Нет" vertex="1">
+          <mxGeometry relative="1" x="-0.0318" as="geometry">
+            <mxPoint x="12" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-152" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" target="tkKnhvlqo3PEV-MtO_nO-149">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="307.18" y="-590.4899999999999" />
+            </Array>
+            <mxPoint x="313.18" y="-673.49" as="sourcePoint" />
+            <mxPoint x="361.18000000000006" y="-661.49" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-153" connectable="0" parent="tkKnhvlqo3PEV-MtO_nO-152" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="Да" vertex="1">
+          <mxGeometry relative="1" x="-0.0277" as="geometry">
+            <mxPoint x="-4" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-154" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" target="tkKnhvlqo3PEV-MtO_nO-146">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="307.18" y="-546.0099999999999" />
+              <mxPoint x="307.18" y="-526.01" />
+              <mxPoint x="47.18000000000001" y="-526.01" />
+              <mxPoint x="47.18000000000001" y="-508.01" />
+            </Array>
+            <mxPoint x="307.18" y="-579.0099999999999" as="sourcePoint" />
+            <mxPoint x="355.18000000000006" y="-561.01" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-156" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-126" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tkKnhvlqo3PEV-MtO_nO-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-157" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-107" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=elbowEdgeStyle;" target="tkKnhvlqo3PEV-MtO_nO-108">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="142" y="-1080.53" />
+            </Array>
+            <mxPoint x="325" y="-891.53" as="sourcePoint" />
+            <mxPoint x="325" y="-880.53" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-158" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-108" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=elbowEdgeStyle;" target="tkKnhvlqo3PEV-MtO_nO-112">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="142" y="-1009.53" />
+            </Array>
+            <mxPoint x="207" y="-1015.53" as="sourcePoint" />
+            <mxPoint x="207" y="-991.53" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-160" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-117" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;edgeStyle=orthogonalEdgeStyle;" target="tkKnhvlqo3PEV-MtO_nO-119">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="473" y="-944.43" />
+              <mxPoint x="473" y="-927.43" />
+              <mxPoint x="47" y="-927.43" />
+              <mxPoint x="47" y="-909.43" />
+            </Array>
+            <mxPoint x="466.44" y="-944.88" as="sourcePoint" />
+            <mxPoint x="234.44" y="-906.88" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-161" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-119" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;edgeStyle=orthogonalEdgeStyle;" target="tkKnhvlqo3PEV-MtO_nO-120">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="331" y="-909.53" />
+              <mxPoint x="331" y="-891.53" />
+              <mxPoint x="47" y="-891.53" />
+              <mxPoint x="47" y="-873.53" />
+            </Array>
+            <mxPoint x="882" y="-903.43" as="sourcePoint" />
+            <mxPoint x="483" y="-867.43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-162" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-112" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;edgeStyle=orthogonalEdgeStyle;" target="tkKnhvlqo3PEV-MtO_nO-116">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="248" y="-974.53" />
+              <mxPoint x="248" y="-962.53" />
+              <mxPoint x="47" y="-962.53" />
+              <mxPoint x="47" y="-944.53" />
+            </Array>
+            <mxPoint x="462" y="-974.9" as="sourcePoint" />
+            <mxPoint x="63" y="-938.9" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-163" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-120" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" target="tkKnhvlqo3PEV-MtO_nO-122">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="133" y="-832" />
+              <mxPoint x="133" y="-832" />
+            </Array>
+            <mxPoint x="200.78999999999974" y="-868.98" as="sourcePoint" />
+            <mxPoint x="348" y="-862.21" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-165" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=left;spacing=9.8425;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;объявить&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;previous,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;current,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;next&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="29.53" width="141.74" x="637.79" y="-1015.7500000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-166" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;align=left;spacingLeft=22;" value="вывод&amp;nbsp;&quot;Результат&lt;div&gt;обработки последовательности:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="29.12" width="259.85" x="519.68" y="-974.41" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-167" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="&lt;span style=&quot;text-align: left;&quot;&gt;previous &amp;lt; current&lt;/span&gt;" vertex="1">
+          <mxGeometry height="47.66" width="129.52" x="501.97" y="-933.48" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-168" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;align=center;spacingLeft=0;" value="вывод previous + &quot; &quot;" vertex="1">
+          <mxGeometry height="23.63" width="135.09" x="643.7" y="-921.48" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-169" parent="1" style="shape=loopLimit;whiteSpace=wrap;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="пока есть элемент iFile, записывать в next" vertex="1">
+          <mxGeometry height="17.71" width="307.09" x="472.44" y="-874.01" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-171" connectable="0" parent="1" style="group;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="" vertex="1">
+          <mxGeometry height="17.73" width="237.69" x="543.31" y="-767.3" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-172" parent="tkKnhvlqo3PEV-MtO_nO-171" style="shape=loopLimit;whiteSpace=wrap;html=1;rotation=-180;horizontal=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="" vertex="1">
+          <mxGeometry height="17.73" width="306.45" x="-71.75" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-173" parent="tkKnhvlqo3PEV-MtO_nO-171" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;spacingBottom=4;" value="пока есть элемент iFile, записывать в next" vertex="1">
+          <mxGeometry height="17.73" width="307.09" x="-70.87" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-174" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;current&lt;font style=&quot;font-size: 5px;&quot;&gt; &lt;/font&gt;&amp;lt;&lt;font style=&quot;font-size: 5px;&quot;&gt; &lt;/font&gt;previous&lt;font style=&quot;font-size: 5px;&quot;&gt; &lt;/font&gt;+&lt;font style=&quot;font-size: 5px;&quot;&gt; &lt;/font&gt;next&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="47.66" width="153.16" x="472.44" y="-850.4" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-175" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;align=center;spacingLeft=0;" value="вывод current&amp;nbsp;+ &quot; &quot;" vertex="1">
+          <mxGeometry height="23.63" width="129.92" x="649.22" y="-838.39" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-195" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-176" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;edgeStyle=elbowEdgeStyle;" target="tkKnhvlqo3PEV-MtO_nO-173">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="543.19" y="-767.5100000000001" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-176" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=left;spacing=9.8425;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;previous = current,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;current = next&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="17.72" width="307.47" x="472.06" y="-791.35" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-179" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;current &amp;lt; previous&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="47.66" width="141.33" x="472.06" y="-738.2" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-180" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-167" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" target="tkKnhvlqo3PEV-MtO_nO-168">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="891.19" y="-1056.4300000000003" as="sourcePoint" />
+            <mxPoint x="925.19" y="-1056.4300000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-181" connectable="0" parent="tkKnhvlqo3PEV-MtO_nO-180" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="Да" vertex="1">
+          <mxGeometry relative="1" x="-0.0277" as="geometry">
+            <mxPoint x="-4" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-182" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;edgeStyle=orthogonalEdgeStyle;" target="tkKnhvlqo3PEV-MtO_nO-169">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="-892" />
+              <mxPoint x="520" y="-892" />
+            </Array>
+            <mxPoint x="520" y="-903" as="sourcePoint" />
+            <mxPoint x="665.19" y="-904.0300000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-183" connectable="0" parent="tkKnhvlqo3PEV-MtO_nO-182" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="Нет" vertex="1">
+          <mxGeometry relative="1" x="-0.0277" as="geometry">
+            <mxPoint y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-185" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-165" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=elbowEdgeStyle;" target="tkKnhvlqo3PEV-MtO_nO-166">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="767.19" y="-1152.0300000000002" as="sourcePoint" />
+            <mxPoint x="767.19" y="-1140.0300000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-186" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-166" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=elbowEdgeStyle;" target="tkKnhvlqo3PEV-MtO_nO-167">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="543.19" y="-939.0300000000001" />
+            </Array>
+            <mxPoint x="560.19" y="-957.0300000000001" as="sourcePoint" />
+            <mxPoint x="560.19" y="-940.0300000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-187" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=elbowEdgeStyle;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="711.03" y="-874.0300000000001" />
+            </Array>
+            <mxPoint x="711.03" y="-897.85" as="sourcePoint" />
+            <mxPoint x="711.03" y="-874.01" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-189" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-169" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=elbowEdgeStyle;endArrow=none;endFill=0;" target="tkKnhvlqo3PEV-MtO_nO-174">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590.19" y="-904.2700000000001" as="sourcePoint" />
+            <mxPoint x="590.19" y="-892.2700000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-190" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-174" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" target="tkKnhvlqo3PEV-MtO_nO-175">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="684.19" y="-879.7500000000001" as="sourcePoint" />
+            <mxPoint x="711.19" y="-879.7500000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-191" connectable="0" parent="tkKnhvlqo3PEV-MtO_nO-190" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="Да" vertex="1">
+          <mxGeometry relative="1" x="-0.0277" as="geometry">
+            <mxPoint x="-4" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-192" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-175" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=elbowEdgeStyle;" target="tkKnhvlqo3PEV-MtO_nO-176">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="709" y="-803" />
+            </Array>
+            <mxPoint x="696.19" y="-867.5100000000001" as="sourcePoint" />
+            <mxPoint x="696.19" y="-843.5100000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-193" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-174" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;edgeStyle=elbowEdgeStyle;" target="tkKnhvlqo3PEV-MtO_nO-176">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="495.19" y="-796.5100000000001" />
+            </Array>
+            <mxPoint x="549.19" y="-855.5100000000001" as="sourcePoint" />
+            <mxPoint x="549.19" y="-827.5100000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-194" connectable="0" parent="tkKnhvlqo3PEV-MtO_nO-193" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="Нет" vertex="1">
+          <mxGeometry relative="1" x="-0.0277" as="geometry">
+            <mxPoint y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-206" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-197" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tkKnhvlqo3PEV-MtO_nO-205">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-197" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;align=center;spacingLeft=0;" value="вывод current&amp;nbsp;+ &quot; &quot;" vertex="1">
+          <mxGeometry height="23.63" width="129.92" x="649.22" y="-726.19" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-198" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-179" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" target="tkKnhvlqo3PEV-MtO_nO-197">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="679.19" y="-785.0300000000001" as="sourcePoint" />
+            <mxPoint x="713.19" y="-785.0300000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-199" connectable="0" parent="tkKnhvlqo3PEV-MtO_nO-198" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="Да" vertex="1">
+          <mxGeometry relative="1" x="-0.0277" as="geometry">
+            <mxPoint x="-4" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-200" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-173" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=elbowEdgeStyle;" target="tkKnhvlqo3PEV-MtO_nO-179">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="543.19" y="-744.0300000000001" />
+            </Array>
+            <mxPoint x="608.19" y="-768.0300000000001" as="sourcePoint" />
+            <mxPoint x="608.19" y="-756.0300000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-205" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=left;spacing=0;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;spacingLeft=3;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;объявить&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;number,&amp;nbsp;index = 0,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;maxEven = 0,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;maxEvenIndex = -1,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;hasEven = false&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="29.53" width="366.16" x="413.39" y="-685.04" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-207" parent="1" style="shape=loopLimit;whiteSpace=wrap;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="пока есть элемент iFile, записывать в number" vertex="1">
+          <mxGeometry height="17.71" width="271.09" x="507.7" y="-643.68" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-211" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-210" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tkKnhvlqo3PEV-MtO_nO-106">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="661" y="-608" />
+              <mxPoint x="661" y="-585" />
+              <mxPoint x="467" y="-585" />
+              <mxPoint x="467" y="-620" />
+              <mxPoint x="407" y="-620" />
+              <mxPoint x="407" y="-909" />
+              <mxPoint x="496" y="-909" />
+              <mxPoint x="496" y="-998" />
+              <mxPoint x="502" y="-998" />
+              <mxPoint x="502" y="-1004" />
+              <mxPoint x="496" y="-1004" />
+              <mxPoint x="496" y="-1033" />
+              <mxPoint x="673" y="-1033" />
+              <mxPoint x="673" y="-1063" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-214" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-210" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tkKnhvlqo3PEV-MtO_nO-213">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="656" y="-602" />
+              <mxPoint x="656" y="-596" />
+              <mxPoint x="667" y="-596" />
+              <mxPoint x="667" y="-602" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-210" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;align=left;spacingLeft=16;spacingBottom=2;" value="ввод&amp;nbsp; &amp;nbsp;number + &quot; &quot;" vertex="1">
+          <mxGeometry height="23.63" width="141.72" x="507.49999999999994" y="-614.1700000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-213" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;number&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;чётное&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="47.66" width="94.49" x="684.3" y="-614.17" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-215" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=left;spacing=9.8425;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;" value="&lt;div style=&quot;&quot;&gt;index += 1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="17.72" width="82.68" x="685.07" y="-484.67" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-216" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;align=center;spacingBottom=5;" value="&lt;div style=&quot;&quot;&gt;hasEven не истино&lt;/div&gt;&lt;div style=&quot;&quot;&gt;или number &amp;gt; maxEven&lt;/div&gt;" vertex="1">
+          <mxGeometry height="59.88" width="141.73" x="519.3" y="-576.1999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-217" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-213" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;edgeStyle=elbowEdgeStyle;elbow=vertical;" target="tkKnhvlqo3PEV-MtO_nO-216">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="732" y="-555" />
+            </Array>
+            <mxPoint x="685" y="-656" as="sourcePoint" />
+            <mxPoint x="731" y="-656" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-218" connectable="0" parent="tkKnhvlqo3PEV-MtO_nO-217" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="Да" vertex="1">
+          <mxGeometry relative="1" x="-0.0277" as="geometry">
+            <mxPoint x="-4" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-219" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-213" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;edgeStyle=elbowEdgeStyle;elbow=vertical;" target="tkKnhvlqo3PEV-MtO_nO-215">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="756" y="-561" />
+            </Array>
+            <mxPoint x="841" y="-549" as="sourcePoint" />
+            <mxPoint x="720" y="-549" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-220" connectable="0" parent="tkKnhvlqo3PEV-MtO_nO-219" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="Нет" vertex="1">
+          <mxGeometry relative="1" x="-0.0277" as="geometry">
+            <mxPoint x="1" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-223" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;align=center;spacingBottom=5;" value="&lt;div style=&quot;&quot;&gt;hasEven&lt;/div&gt;" vertex="1">
+          <mxGeometry height="35.83" width="94.48" x="413.99999999999994" y="-490.15999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-224" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-215" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tkKnhvlqo3PEV-MtO_nO-254">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="726" y="-620" as="sourcePoint" />
+            <mxPoint x="726" y="-602" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-226" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;align=left;spacingLeft=16;" value="вывод&amp;nbsp;&quot;Максимальное чётное число:&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="23.63" width="219.29" x="429.34000000000003" y="-419.28999999999996" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-227" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;align=left;spacingLeft=16;" value="вывод maxEven" vertex="1">
+          <mxGeometry height="23.63" width="112.2" x="665.5600000000001" y="-419.28999999999996" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-228" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-226" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;" target="tkKnhvlqo3PEV-MtO_nO-227">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="653.4700000000001" y="-189.15000000000012" as="sourcePoint" />
+            <mxPoint x="815.4700000000001" y="-189.15000000000012" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-229" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;align=left;spacingLeft=16;" value="вывод&amp;nbsp;&quot;Порядковый номер:&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="23.63" width="219.29" x="424.22" y="-383.86" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-230" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;align=left;spacingLeft=16;" value="вывод maxEvenIndex" vertex="1">
+          <mxGeometry height="23.63" width="135.83" x="642.72" y="-383.86" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-231" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-229" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;" target="tkKnhvlqo3PEV-MtO_nO-230">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="648.3500000000001" y="-141.91000000000017" as="sourcePoint" />
+            <mxPoint x="810.3500000000001" y="-141.91000000000017" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-232" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;align=left;spacingLeft=16;" value="вывод&amp;nbsp;&quot;Чётные числа отсутствуют.&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="23.63" width="219.29" x="423.43" y="-348.42999999999995" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-233" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-227" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" target="tkKnhvlqo3PEV-MtO_nO-229">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="779" y="-407.53" />
+              <mxPoint x="779" y="-389.53" />
+              <mxPoint x="419" y="-389.53" />
+              <mxPoint x="419" y="-375.53" />
+            </Array>
+            <mxPoint x="670.13" y="-413.3800000000001" as="sourcePoint" />
+            <mxPoint x="438.13" y="-375.3800000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-234" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" target="tkKnhvlqo3PEV-MtO_nO-226">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="461" y="-425" />
+              <mxPoint x="419" y="-425" />
+              <mxPoint x="419" y="-407" />
+            </Array>
+            <mxPoint x="769.86" y="-353.51000000000005" as="sourcePoint" />
+            <mxPoint x="439.86" y="-322.51000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-236" connectable="0" parent="tkKnhvlqo3PEV-MtO_nO-234" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="&lt;font&gt;Да&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.9629" y="1" as="geometry">
+            <mxPoint x="-1" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-237" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" target="tkKnhvlqo3PEV-MtO_nO-232">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="407" y="-472" />
+              <mxPoint x="407" y="-337" />
+            </Array>
+            <mxPoint x="704.25" y="-359.00000000000006" as="sourcePoint" />
+            <mxPoint x="381.25" y="-324.00000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-238" connectable="0" parent="tkKnhvlqo3PEV-MtO_nO-237" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="&lt;font&gt;Нет&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.9629" y="1" as="geometry">
+            <mxPoint x="-4" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-245" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-240" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=elbowEdgeStyle;elbow=vertical;" target="tkKnhvlqo3PEV-MtO_nO-215">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-240" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=left;spacing=9.8425;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;maxEven = number,&lt;/div&gt;&lt;div&gt;maxEvenIndex = index,&lt;/div&gt;&lt;div&gt;hasEven = true,&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="41.34" width="140.96" x="520.0699999999999" y="-507.87" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-241" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-216" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;edgeStyle=elbowEdgeStyle;elbow=vertical;" target="tkKnhvlqo3PEV-MtO_nO-240">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="543" y="-508" />
+            </Array>
+            <mxPoint x="642.72" y="-556.78" as="sourcePoint" />
+            <mxPoint x="642.72" y="-459.78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-242" connectable="0" parent="tkKnhvlqo3PEV-MtO_nO-241" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="Да" vertex="1">
+          <mxGeometry relative="1" x="-0.0277" as="geometry">
+            <mxPoint x="1" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-243" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-216" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;edgeStyle=elbowEdgeStyle;elbow=vertical;" target="tkKnhvlqo3PEV-MtO_nO-215">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="697" y="-546" />
+            </Array>
+            <mxPoint x="762" y="-543" as="sourcePoint" />
+            <mxPoint x="762" y="-446" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-244" connectable="0" parent="tkKnhvlqo3PEV-MtO_nO-243" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="Нет" vertex="1">
+          <mxGeometry relative="1" x="-0.0277" as="geometry">
+            <mxPoint x="1" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-248" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;align=left;spacingLeft=16;" value="вывод&amp;nbsp;&quot;Последовательность из файла Output.txt:&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="23.63" width="289.37" x="62.00999999999999" y="-472.46999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-249" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" target="tkKnhvlqo3PEV-MtO_nO-248">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="644" y="-337" />
+              <mxPoint x="644" y="-319" />
+              <mxPoint x="360" y="-319" />
+              <mxPoint x="360" y="-478" />
+              <mxPoint x="47" y="-478" />
+              <mxPoint x="47" y="-461" />
+            </Array>
+            <mxPoint x="365.82" y="-442.9900000000001" as="sourcePoint" />
+            <mxPoint x="133.82" y="-404.9900000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-261" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-250" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="tkKnhvlqo3PEV-MtO_nO-251">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-250" parent="1" style="shape=loopLimit;whiteSpace=wrap;html=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="пока есть элемент oFile, записывать в number" vertex="1">
+          <mxGeometry height="17.71" width="271.65" x="64.96" y="-431.1" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-251" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;align=left;spacingLeft=16;" value="вывод number + &quot; &quot;" vertex="1">
+          <mxGeometry height="23.63" width="134.58" x="133.48999999999998" y="-407.4800000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-252" connectable="0" parent="1" style="group;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="" vertex="1">
+          <mxGeometry height="17.73" width="208.17" x="572.83" y="-448.82" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-253" parent="tkKnhvlqo3PEV-MtO_nO-252" style="shape=loopLimit;whiteSpace=wrap;html=1;rotation=-180;horizontal=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="" vertex="1">
+          <mxGeometry height="17.73" width="268.3903256342294" x="-62.8389814464218" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-254" parent="tkKnhvlqo3PEV-MtO_nO-252" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;spacingBottom=4;" value="пока есть элемент iFile, записывать в number" vertex="1">
+          <mxGeometry height="17.73" width="268.9508405906853" x="-62.06827338129495" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-256" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-254" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tkKnhvlqo3PEV-MtO_nO-223">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="645" y="-425" />
+              <mxPoint x="496" y="-425" />
+              <mxPoint x="496" y="-455" />
+              <mxPoint x="514" y="-455" />
+              <mxPoint x="514" y="-502" />
+              <mxPoint x="461" y="-502" />
+            </Array>
+            <mxPoint x="732" y="-431" as="sourcePoint" />
+            <mxPoint x="732" y="-413" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-258" connectable="0" parent="1" style="group;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="" vertex="1">
+          <mxGeometry height="17.73" width="206.7" x="128.92" y="-377.96000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-259" parent="tkKnhvlqo3PEV-MtO_nO-258" style="shape=loopLimit;whiteSpace=wrap;html=1;rotation=-180;horizontal=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;" value="" vertex="1">
+          <mxGeometry height="17.73" width="266.4950776221127" x="-62.39524170137572" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-260" parent="tkKnhvlqo3PEV-MtO_nO-258" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;fontSize=10;spacingBottom=4;" value="пока есть элемент oFile, записывать в number" vertex="1">
+          <mxGeometry height="17.73" width="267.05163448188813" x="-61.62997601918464" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-262" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-251" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="tkKnhvlqo3PEV-MtO_nO-260">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="213" y="-372" as="sourcePoint" />
+            <mxPoint x="213" y="-361" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-267" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=10;perimeterSpacing=0;fontFamily=Anonymous Pro;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAnonymous%2BPro;" value="конец" vertex="1">
+          <mxGeometry height="23.62" width="94.63" x="153.47" y="-342.52" as="geometry" />
+        </mxCell>
+        <mxCell id="tkKnhvlqo3PEV-MtO_nO-268" edge="1" parent="1" source="tkKnhvlqo3PEV-MtO_nO-260" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tkKnhvlqo3PEV-MtO_nO-267">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
