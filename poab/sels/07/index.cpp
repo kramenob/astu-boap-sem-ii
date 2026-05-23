@@ -62,12 +62,12 @@ namespace sw07 {
 		message("chebyshev");
 
 		// T.2.1: рекурсивный перевод числа в p-ичную систему
-		auto toBase = [&](auto self, int number, int base) -> void {
-			if (number >= base) {
-				self(self, number / base, base);
+		auto toBase = [&](auto self, int n, int base) -> void {
+			if (n >= base) {
+				self(self, n / base, base);
 			}
 
-			cout << number % base;
+			cout << n % base;
 		};
 
 		// T.2.2: рекурсивное вычисление многочлена Чебышёва
