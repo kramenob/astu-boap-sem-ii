@@ -26,15 +26,15 @@ int main() {
         {13, lw13::index},
         {14, lw14::index},
         {15, lw15::index},
-        // {16, lw16::index},
-        // {17, lw17::index}
+        {16, lw16::index},
+        {17, lw17::index}
     };
 
 	map<int, Handler> sels = {
 		{ 6, sw06::index},
-		// { 7, sw07::index},
-		// { 8, sw08::index},
-		// { 9, sw09::index}
+		{ 7, sw07::index},
+		{ 8, sw08::index},
+		{ 9, sw09::index}
 	};
 
 	cout << "Доступные виды работ:" << endl
