@@ -9,6 +9,8 @@
 *.jpeg
 *.docx
 *.pdf
+*.bkp
+*.dtmp
 
 # macOS
 .DS_Store
