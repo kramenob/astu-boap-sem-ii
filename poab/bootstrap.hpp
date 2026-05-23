@@ -32,6 +32,7 @@
 #include <cctype>
 #include <codecvt>
 #include <cwctype>
+#include <algorithm>
 
 /** Utility headers */
 #include "utils/index.hpp"
