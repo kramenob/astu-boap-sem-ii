@@ -39,10 +39,10 @@ May be explore by .md + .drawio (for normal people) or converted to .docx for di
 
 ### TOC
 
- - «Отчет самостоятельной работы №6» (Управляющие операторы)          // [~/docs/sels/06/task-statement.md](blob/main/docs/sels/06/task-statement.md)
- - «Отчет самостоятельной работы №7» (Пользовательские функции)       // [~/docs/sels/07/task-statement.md](blob/main/docs/sels/07/task-statement.md)
- - «Отчет самостоятельной работы №8» (Файловые потоки)                // [~/docs/sels/08/task-statement.md](blob/main/docs/sels/08/task-statement.md)
- - «Отчет самостоятельной работы №9» (Обработка текстовой информации) // [~/docs/sels/09/task-statement.md](blob/main/docs/sels/09/task-statement.md)
+ - «Отчет самостоятельной работы №6» (Управляющие операторы)          // [~/docs/sels/06/report.md](docs/sels/06/report.md)
+ - «Отчет самостоятельной работы №7» (Пользовательские функции)       // [~/docs/sels/07/report.md](docs/sels/07/report.md)
+ - «Отчет самостоятельной работы №8» (Файловые потоки)                // [~/docs/sels/08/report.md](docs/sels/08/report.md)
+ - «Отчет самостоятельной работы №9» (Обработка текстовой информации) // [~/docs/sels/09/report.md](docs/sels/09/report.md)
 
 ### Convert to .docx (Word)
 
