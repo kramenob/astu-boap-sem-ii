@@ -68,7 +68,7 @@ How to:
 
 `%`
 ```sh
-cd ~/docs/scripts && chmod +x./export.sh && ./export.sh
+cd ~/docs/scripts && chmod +x ./export.sh && ./export.sh
 ```
 
 `>`

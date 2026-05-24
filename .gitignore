@@ -21,6 +21,7 @@
 
 # VS Code
 .vscode/
+output/
 
 # Prerequisites
 *.d
