@@ -8,143 +8,205 @@
 namespace sw06 {
 
 	/**
-	 * T.3. Вычисляет и выводит произведение элементов массива
-	 * с чётными индексами (0, 2, 4, ...).
+	 * T.1. Вычисление кусочной функции разными способами.
 	 */
-	void calcProductEvenIndexes(const vector<int>& arr) {
-		long long product = 1;
+	void task01() {
+		message("task01");
 
-		for (size_t i = 0; i < arr.size(); i += 2) {
-			product *= arr[i];
+		double x      = 0.0;
+		double y      = 0.0;
+		int    choice = 0;
+
+		cout << "Введите x: ";
+		cin  >> x;
+
+		cout << endl
+			 << "Способы вычисления:"                 << endl
+			 << " 1. Полное ветвление;"               << endl
+			 << " 2. Составные логические выражения;" << endl
+			 << " 3. Условная операция."              << endl
+			 << endl;
+
+		while (choice < 1 || choice > 3) {
+			cout << "Выберите способ [1-3]: ";
+			cin  >> choice;
 		}
 
-		cout << "Произведение элементов с четными номерами: " << product << endl;
+		switch (choice) {
+			case 1:
+				if (x < -5) {
+					y = cos(2) / x;
+				}
+				else if (x <= 2) {
+					y = x * sin(x);
+				}
+				else if (x < 3) {
+					y = (x + 10) / (2 + x * x);
+				}
+				else {
+					y = x + cbrt(x);
+				}
+				break;
+
+			case 2:
+				if (x < -5) {
+					y = cos(2) / x;
+				}
+
+				if (x >= -5 && x <= 2) {
+					y = x * sin(x);
+				}
+
+				if (x > 2 && x < 3) {
+					y = (x + 10) / (2 + x * x);
+				}
+
+				if (x >= 3) {
+					y = x + cbrt(x);
+				}
+				break;
+
+			case 3:
+				y = (x < -5)
+					? cos(2) / x
+					: (x <= 2)
+						? x * sin(x)
+						: (x < 3)
+							? (x + 10) / (2 + x * x)
+							: x + cbrt(x);
+				break;
+		}
+
+		cout << endl << "Результат: y = " << y << endl;
 	}
 
 	/**
-	 * T.4. Вычисляет и выводит сумму элементов массива,
-	 * расположенных между первым и последним нулевыми элементами.
+	 * T.2. Гадание на ромашке.
 	 */
-	void calcSumBetweenZeros(const vector<int>& arr) {
+	void task02() {
+		message("task02");
 
-		int firstZero = -1;
-		int lastZero  = -1;
+		int petals = 0;
 
-		for (size_t i = 0; i < arr.size(); ++i) {
-			if (arr[i] == 0) {
-				if (firstZero == -1) {
-					firstZero = static_cast<int>(i);
-				}
-				lastZero = static_cast<int>(i);
-			}
-		}
+		cout << "Введите количество лепестков [10-50]: ";
+		cin  >> petals;
 
-		int sumBetweenZeros = 0;
-
-		if (firstZero == -1 || lastZero == -1 || firstZero == lastZero) {
-			cout << "В массиве недостаточно нулевых элементов для вычисления суммы." << endl;
+		if (petals < 10 || petals > 50) {
+			cout << "Ошибка. Количество лепестков должно быть от 10 до 50." << endl << endl;
 			return;
 		}
 
-		for (size_t i = firstZero + 1; i < lastZero; ++i) {
-			sumBetweenZeros += arr[i];
+		cout << endl << "Результат гадания: ";
+
+		switch (petals % 6) {
+			case 0:
+				cout << "любит";
+				break;
+			case 1:
+				cout << "не любит";
+				break;
+			case 2:
+				cout << "плюнет";
+				break;
+			case 3:
+				cout << "поцелует";
+				break;
+			case 4:
+				cout << "к сердцу прижмет";
+				break;
+			case 5:
+				cout << "к черту пошлет";
+				break;
 		}
 
-		cout << "Сумма элементов между первым и последним нулем: "
-		     << sumBetweenZeros << endl;
+		cout << endl;
+	}
+
+	/**
+	 * T.3. Вычисление суммы ряда.
+	 */
+	void task03() {
+		message("task03");
+
+		double x       = 0.0;
+		double epsilon = 0.0;
+
+		cout << "Введите x: ";
+		cin  >> x;
+
+		cout << "Введите epsilon (0 < epsilon < 1): ";
+		cin  >> epsilon;
+
+		if (epsilon <= 0 || epsilon >= 1) {
+			cout << "Ошибка. Некорректное значение epsilon." << endl << endl;
+			return;
+		}
+
+		double sum  = 0.0;
+		double term = x;
+		int    n    = 0;
+
+		while (fabs(term) >= epsilon) {
+			sum += term;
+			n++;
+			term *= (-1.0) * x * x / ((2 * n) * (2 * n + 1));
+		}
+
+		cout << endl << "Сумма ряда S = " << sum << endl;
+	}
+
+	/**
+	 * T.4. Табулирование функции двух переменных.
+	 */
+	void task04() {
+		message("task04");
+
+		double a  = 0.0;
+		double b  = 0.0;
+		double c  = 0.0;
+		double d  = 0.0;
+		double dx = 0.0;
+		double dy = 0.0;
+
+		cout << "Введите  a: "; cin >>  a;
+		cout << "Введите  b: "; cin >>  b;
+		cout << "Введите  c: "; cin >>  c;
+		cout << "Введите  d: "; cin >>  d;
+		cout << "Введите dx: "; cin >> dx;
+		cout << "Введите dy: "; cin >> dy;
+
+		cout << endl;
+		cout << fixed << setprecision(2);
+		cout << setw(8) << "y\\x";
+
+		for (double x = a; x <= b + 0.0001; x += dx) {
+			cout << setw(8) << x;
+		}
+
+		cout << endl;
+
+		for (double y = c; y <= d + 0.0001; y += dy) {
+
+			cout << setw(8) << y;
+
+			for (double x = a; x <= b + 0.0001; x += dx) {
+				if ((4 - x * x - y * y) >= 0 && x != y) {
+					double z = exp(sqrt(4 - x * x - y * y)) / (x - y);
+					cout << setw(8) << z;
+				}
+				else {
+					cout << setw(8) << "(*)";
+				}
+			}
+		}
 	}
 
 	void index() {
 		message("intro");
 
-		vector<int> arr;
-		int n = 0, minVal = 0, maxVal = 0, choice = 0;
-
-		// T.1. Сформировать массив по выбору пользователя <...>
-		cout << "Способы формирования массива:" << endl
-			 << " 1. Случайные числа;"          << endl
-			 << " 2. Ввод с клавиатуры;"        << endl
-										        << endl;
-
-		while (choice < 1 || choice > 2) {
-			cout << "Выберите способ формирования массива [1-2]: ";
-			cin  >>  choice;
-			cout <<  endl;
-		}
-
-		cout << "Введите количество элементов массива: ";
-		cin  >>  n;
-		cout <<  endl;
-
-		switch (choice) {
-			case 1:
-				/** Random numbers */
-				cout << "Введите мин.  значение: ";
-				cin  >>  minVal;
-				cout << "Введите макс. значение: ";
-				cin  >>  maxVal;
-
-				/**
-				 * Random numbers generator init
-				 * `srand(seed)` initializes the pseudo‑random numbers generator used by `rand()`.
-				 * `static_cast<unsigned int>(...)` explicitly converts the value to the required type
-				 * because `srand()` expects an argument of type `unsigned int`.
-				 * `<unsigned int>` is the target type of the cast used for the seed value.
-				 * `time(0)` returns current time in secconds since 01.01.1970,
-				 * so each program execution returns completely new numbers' array
-				 */
-				srand(static_cast<unsigned int>(time(0)));
-
-				/**
-				 * Random numbers' array forming.
-				 * The cycle executes `n` times, where `n` is array items count (from user input).
-				 */
-				for (int i = 0; i < n; ++i) {
-
-					/**
-					 * Random number generation in range: [ minVal ; maxVal ]
-					 * `rand(...)` is the base number
-					 * `rand(...) % ( maxVal - minVal + 1 )` is range limit
-					 * `+ minVal` range's step to needed min. value
-					 */
-					int randomValue = minVal + rand() % (maxVal - minVal + 1);
-
-					/**
-					 * Push gotten random value at the end of dynamic vector array
-					 */
-					arr.push_back(randomValue);
-				}
-				break;
-
-			case 2:
-				/** User input */
-				cout << "Введите элементы массива через пробел: ";
-				for (int i = 0; i < n; ++i) {
-					int val;
-					cin >> val;
-					arr.push_back(val);
-				}
-				break;
-
-			default:
-				cout << "Ошибка. Способов ввода массива лишь 2.";
-				exit(1);
-		}
-		cout << endl;
-
-		// Display the array
-		cout << "Массив: ";
-		for (int val : arr) {
-			cout << val << " ";
-		}
-		cout << endl << endl;
-
-		/** T.3. */
-		calcProductEvenIndexes(arr);
-
-		/** T.4. */
-		calcSumBetweenZeros(arr);
-
+		task01();
+		task02();
+		task03();
+		task04();
 	}
-
 }
