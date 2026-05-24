@@ -9,6 +9,7 @@
 *.jpeg
 *.docx
 !docs/config/*.docx
+~$*.docx
 *.pdf
 *.drawio.*
 *.bkp

@@ -35,7 +35,7 @@ Source code and docs.
 
 ## Docs
 
-May be explore by .md + .drawio (for normal people) or converted to .docx for dinosaurs (with normal people support).
+Can be explore by .md + .drawio (for normal people) or converted to .docx for dinosaurs (with normal people support).
 
 ### TOC
 
@@ -55,7 +55,7 @@ Requirements:
 	Scripting engine: Lua 5.4
 	```
 
-Recommend:
+Recommended:
 
  - librsvg [GNOME/librsvg](https://github.com/GNOME/librsvg), - it handles with svg (diagram) correct - tested on:
 	```
@@ -68,7 +68,7 @@ How to:
 
 `%`
 ```sh
-cd ~/docs/scripts && chmod +x && ./export.sh
+cd ~/docs/scripts && chmod +x./export.sh && ./export.sh
 ```
 
 `>`
