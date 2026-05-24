@@ -8,9 +8,12 @@
 # temp
 *.jpeg
 *.docx
+!docs/config/*.docx
 *.pdf
+*.drawio.*
 *.bkp
 *.dtmp
+!*.drawio.svg
 
 # macOS
 .DS_Store
