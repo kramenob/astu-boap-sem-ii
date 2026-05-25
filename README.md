@@ -46,41 +46,78 @@ Can be explore by .md + .drawio (for normal people) or converted to .docx for di
 
 ### Convert to .docx (Word)
 
-Requirements:
+Requirements from (docs/config/requirements):
 
- - Pandoc [jgm/pandoc](https://github.com/jgm/pandoc), tested on:
+- Pandoc
+- librsvg
+- gettext (`envsubst`)
+
+Prepares:
+
+ - make executable scripts:
+
+	`%`
+	```zsh
+	chmod +x ./scripts/*.sh
 	```
+
+Install dependencies:
+
+ - on macOS
+
+	`%`
+	```zsh
+	chmod +x ./scripts/install/macos.sh
+	./scripts/install/macos.sh
+	```
+
+	Example tested on:
+
+	`%`
+	```zsh
 	pandoc 3.9.0.2
 	Features: +server +lua
 	Scripting engine: Lua 5.4
-	```
 
-Recommended:
-
- - librsvg [GNOME/librsvg](https://github.com/GNOME/librsvg), - it handles with svg (diagram) correct - tested on:
-	```
 	rsvg-convert version 2.62.2
 	```
 
-How to:
+ - on other platforms take pull request
 
- - Run `~/docs/scripts/export.sh` script from `scripts` dir;
+Configuration:
+
+Copy `docs/config/.env.example` to `docs/config/.env` and edit for Yourself.
+
+Template variables may be used inside `.md` reports:
+
+```md
+${author}
+${group}
+${supervisor}
+${year}
+```
+
+Export reports:
 
 `%`
-```sh
-cd ~/docs/scripts && chmod +x ./export.sh && ./export.sh
+```zsh
+chmod +x ./scripts/export.sh
+./scripts/export.sh
 ```
 
+Output:
+
 `>`
-```
+```zsh
 Generated: ~/docs/scripts/../output/0*.docx
 ...
+```
 ```
 
 
 ---
 
-Copyright (c) 2026 Maksim Bolotin (publicly known as Mark Bone) (github.com/kramenob)
+Copyright (c) ${year} Maksim Bolotin (publicly known as Mark Bone) (github.com/kramenob)
 
 All rights reserved.
 

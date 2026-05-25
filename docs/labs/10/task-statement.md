@@ -33,6 +33,6 @@ $x_{0} = x_{\text{нач}}, x_{1} = x_{0} + h, x_{2} = x_{1} + h, … x_{N} = x_
 
 __Используемые источники:__
 
- * Документация KaTeX // [katex.org/docs/supported](https://katex.org/docs/supported) (Дата обращения: 2026-02-19);
- * Онлайн редактор MarkDown (с поддержкой KaTeX) // [dillinger.io](https://dillinger.io/) (Дата обращения: 2026-02-19);
- * Генератор MarkDown таблиц // [tablesgenerator.com/markdown_tables](https://www.tablesgenerator.com/markdown_tables) (Дата обращения: 2026-02-19);
+ * Документация KaTeX // [katex.org/docs/supported](https://katex.org/docs/supported) (Дата обращения: ${year}-02-19);
+ * Онлайн редактор MarkDown (с поддержкой KaTeX) // [dillinger.io](https://dillinger.io/) (Дата обращения: ${year}-02-19);
+ * Генератор MarkDown таблиц // [tablesgenerator.com/markdown_tables](https://www.tablesgenerator.com/markdown_tables) (Дата обращения: ${year}-02-19);

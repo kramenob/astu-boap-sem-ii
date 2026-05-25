@@ -23,9 +23,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CE479EC32F44F26B00E55BB0 /* poab */ = {
+		CE479EC32F44F26B00E55BB0 /* src */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = poab;
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -44,7 +44,7 @@
 		CE479EB82F44F26B00E55BB0 = {
 			isa = PBXGroup;
 			children = (
-				CE479EC32F44F26B00E55BB0 /* poab */,
+				CE479EC32F44F26B00E55BB0 /* src */,
 				CE479EC22F44F26B00E55BB0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +73,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				CE479EC32F44F26B00E55BB0 /* poab */,
+				CE479EC32F44F26B00E55BB0 /* src */,
 			);
 			name = poab;
 			packageProductDependencies = (
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CE479EBC2F44F26B00E55BB0 /* Build configuration list for PBXProject "poab" */;
+			buildConfigurationList = CE479EBC2F44F26B00E55BB0 /* Build configuration list for PBXProject "astu-boap-sem-ii" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -260,7 +260,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE479EBC2F44F26B00E55BB0 /* Build configuration list for PBXProject "poab" */ = {
+		CE479EBC2F44F26B00E55BB0 /* Build configuration list for PBXProject "astu-boap-sem-ii" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE479EC62F44F26B00E55BB0 /* Debug */,

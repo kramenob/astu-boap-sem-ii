@@ -45,4 +45,4 @@
 
 __Используемые источники:__
 
- * Онлайн редактор MarkDown (с поддержкой KaTeX) // [dillinger.io](https://dillinger.io/) (Дата обращения: 2026-02-20);
+ * Онлайн редактор MarkDown (с поддержкой KaTeX) // [dillinger.io](https://dillinger.io/) (Дата обращения: ${year}-02-20);

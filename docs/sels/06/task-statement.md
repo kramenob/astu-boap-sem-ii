@@ -63,4 +63,4 @@ $$S = x - \frac{ x^3 }{ 3! } + ... + ( -1 )^n \frac{ x^{ 2_n + 1 } }{ ( 2_n + 1 
 
 __Используемые источники:__
 
- * Онлайн редактор MarkDown // [dillinger.io](https://dillinger.io/) (Дата обращения: 2026-03-16);
+ * Онлайн редактор MarkDown // [dillinger.io](https://dillinger.io/) (Дата обращения: ${year}-03-16);

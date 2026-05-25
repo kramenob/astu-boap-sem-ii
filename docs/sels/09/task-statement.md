@@ -19,5 +19,5 @@
 
 __Используемые источники:__
 
- * Документация KaTeX // [katex.org/docs/supported](https://katex.org/docs/supported) (Дата обращения: 2026-02-19);
- * Онлайн редактор MarkDown (с поддержкой KaTeX) // [dillinger.io](https://dillinger.io/) (Дата обращения: 2026-02-19);
+ * Документация KaTeX // [katex.org/docs/supported](https://katex.org/docs/supported) (Дата обращения: ${year}-02-19);
+ * Онлайн редактор MarkDown (с поддержкой KaTeX) // [dillinger.io](https://dillinger.io/) (Дата обращения: ${year}-02-19);

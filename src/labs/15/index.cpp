@@ -43,24 +43,19 @@ namespace lw15 {
 
         message("intro");
 
-        // Setup UTF-8 locale for wide streams
-        locale utf8_locale(locale(), new codecvt_utf8<wchar_t>);
-
-        // Open input file with UTF-8 wifstream
+        // Open input file
         wifstream fif(iFile);
         if (!fif.is_open()) {
             wcout << L"Не удалось открыть входной файл" << endl;
             exit(1);
         }
-        fif.imbue(utf8_locale);
 
-        // Prepare output file with UTF-8 wofstream
+        // Prepare output file
         wofstream fof(oFile);
         if (!fof.is_open()) {
             wcout << L"Не удалось создать выходной файл" << endl;
             exit(1);
         }
-        fof.imbue(utf8_locale);
 
         wstring word;
         while (fif >> word) {

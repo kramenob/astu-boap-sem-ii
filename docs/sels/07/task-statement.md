@@ -31,6 +31,6 @@ $a_n = (-1)^n \frac{ 2^n }{ n! }$
 
 __Используемые источники:__
 
- * Многочлены Чебышёва // [ru.wikipedia.org/wiki/Многочлены_Чебышёва](https://ru.wikipedia.org/wiki/%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D1%87%D0%BB%D0%B5%D0%BD%D1%8B_%D0%A7%D0%B5%D0%B1%D1%8B%D1%88%D1%91%D0%B2%D0%B0) (Дата обращения: 2026-05-19)
- * Документация KaTeX // [katex.org/docs/supported](https://katex.org/docs/supported) (Дата обращения: 2026-02-19);
- * Онлайн редактор MarkDown (с поддержкой KaTeX) // [dillinger.io](https://dillinger.io/) (Дата обращения: 2026-02-19);
+ * Многочлены Чебышёва // [ru.wikipedia.org/wiki/Многочлены_Чебышёва](https://ru.wikipedia.org/wiki/%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D1%87%D0%BB%D0%B5%D0%BD%D1%8B_%D0%A7%D0%B5%D0%B1%D1%8B%D1%88%D1%91%D0%B2%D0%B0) (Дата обращения: ${year}-05-19)
+ * Документация KaTeX // [katex.org/docs/supported](https://katex.org/docs/supported) (Дата обращения: ${year}-02-19);
+ * Онлайн редактор MarkDown (с поддержкой KaTeX) // [dillinger.io](https://dillinger.io/) (Дата обращения: ${year}-02-19);

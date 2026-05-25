@@ -1,9 +1,16 @@
 #!/bin/bash
 
 BASE_DIR="$(cd "$(dirname "$0")" && pwd)"
-SELS_DIR="$BASE_DIR/../sels"
-OUTPUT_DIR="$BASE_DIR/../output"
-REFERENCE="$BASE_DIR/../config/reference.docx"
+PROJECT_DIR="$(cd "$BASE_DIR/.." && pwd)"
+
+SELS_DIR="$PROJECT_DIR/docs/sels"
+OUTPUT_DIR="$PROJECT_DIR/docs/output"
+REFERENCE="$PROJECT_DIR/docs/config/reference.docx"
+ENV_FILE="$PROJECT_DIR/docs/config/.env"
+
+set -a
+source "$ENV_FILE"
+set +a
 
 mkdir -p "$OUTPUT_DIR"
 
@@ -23,14 +30,14 @@ for INPUT in "$SELS_DIR"/*/report.md; do
 
   OUTPUT_FILE="$OUTPUT_DIR/${SW_NAME}.docx"
 
-  pandoc "$INPUT" \
+  envsubst < "$INPUT" | pandoc \
     -o "$OUTPUT_FILE" \
     --reference-doc="$REFERENCE" \
     --from markdown \
     --standalone \
     --syntax-highlighting=pygments \
     --resource-path="$SW_DIR:." \
-	--lua-filter="$BASE_DIR/remove-hr.lua"
+    --lua-filter="$BASE_DIR/remove-hr.lua"
 
   echo "Generated: $OUTPUT_FILE"
 done

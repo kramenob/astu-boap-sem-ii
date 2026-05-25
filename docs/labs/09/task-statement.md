@@ -30,4 +30,4 @@
 
 __Используемые источники:__
 
- * Онлайн редактор MarkDown // [dillinger.io](https://dillinger.io/) (Дата обращения: 2026-02-19);
+ * Онлайн редактор MarkDown // [dillinger.io](https://dillinger.io/) (Дата обращения: ${year}-02-19);
