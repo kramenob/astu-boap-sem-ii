@@ -42,7 +42,7 @@ $$x_{0} = x_{\text{нач}}, x_{1} = x_{0} + h, x_{2} = x_{1} + h, … x_{N} = x
 | 11)   | $$\frac {\ln{(x^4-a^2)}} {a^4+28}$$                          | 18    | 1.5   | 2                  | 3.5                |
 ```
 
-Человекочитаемый вид: https://github.com/kramenob/astu-boap-sem-02/blob/main/docs/labs/10/task-statement.md
+Человекочитаемый вид: https://github.com/kramenob/astu-boap-sem-ii/blob/main/docs/labs/10/task-statement.md
 
 )";
 		} else if (key == "methods") {

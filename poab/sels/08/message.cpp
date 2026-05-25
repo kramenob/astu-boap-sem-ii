@@ -14,7 +14,7 @@ void message(const string& key) { if (key == "intro") { cout << R"(
 
 Написать программу, последовательно выполняющую перечисленные ниже задачи. 
 
-Человекочитаемый вид: https://github.com/kramenob/astu-boap-sem-02/blob/main/docs/sels/08/task-statement.md
+Человекочитаемый вид: https://github.com/kramenob/astu-boap-sem-ii/blob/main/docs/sels/08/task-statement.md
 
 )"; } else if (key == "task01") { cout << R"(
 ## Задание 1:

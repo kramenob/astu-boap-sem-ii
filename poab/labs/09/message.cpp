@@ -32,7 +32,7 @@ namespace lw09 {
 6. Закомментировать оператор break во всех альтернативах и провести общее тестирование.
 ```
 
-Человекочитаемый вид: https://github.com/kramenob/astu-boap-sem-02/blob/main/docs/labs/09/task-statement.md
+Человекочитаемый вид: https://github.com/kramenob/astu-boap-sem-ii/blob/main/docs/labs/09/task-statement.md
 
 )";
 		} else if (key == "methods") {

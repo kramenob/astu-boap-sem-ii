@@ -16,7 +16,7 @@ namespace lw13 {
 
 Написать программу, последовательно выполняющую перечисленные ниже задачи. Предусмотреть печать приглашения на ввод (строки, поясняющей пользователю, какие действия от него ждет программа) и информативный вывод данных. 
 
-Человекочитаемый вид: https://github.com/kramenob/astu-boap-sem-02/blob/main/docs/labs/13/task-statement.md
+Человекочитаемый вид: https://github.com/kramenob/astu-boap-sem-ii/blob/main/docs/labs/13/task-statement.md
 )";
 		} else if (key == "task01") {
 			cout << R"(

@@ -25,7 +25,7 @@ namespace lw12 {
  I.2. Последовательность многочленов определяется рекуррентными соотношениями: Т0(x) = 1, Т1(x) = x, Тn(x) = 2хТn-1(x) – Тn-2(x);
  I.3. Написать рекурсивную функцию, вычисляющую $Т_n(x)$
 
-Человекочитаемый вид: https://github.com/kramenob/astu-boap-sem-02/blob/main/docs/labs/12/task-statement.md
+Человекочитаемый вид: https://github.com/kramenob/astu-boap-sem-ii/blob/main/docs/labs/12/task-statement.md
 
 )";
 		} else if (key == "more") {

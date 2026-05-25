@@ -23,7 +23,7 @@ namespace lw11 {
  6. Написать функцию вывода дроби на экран (длина черты между числителем и знаменателем должна быть равна количеству цифр большего из выводимых чисел);
  7. Вызывая функцию нахождения суммы дробей нужное количество раз, вывести результаты на экран.
 
-Человекочитаемый вид: https://github.com/kramenob/astu-boap-sem-02/blob/main/docs/labs/11/task-statement.md
+Человекочитаемый вид: https://github.com/kramenob/astu-boap-sem-ii/blob/main/docs/labs/11/task-statement.md
 
 )";
 		} else if (key == "indintro") {

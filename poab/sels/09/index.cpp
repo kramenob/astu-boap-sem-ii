@@ -34,8 +34,7 @@ namespace sw09 {
 			}
 		}
 
-		cout << endl << "Результат замены символов: ";
-		cout << text << endl;
+		cout << endl << "Результат замены символов: " << text << endl;
 	}
 
 	/**
@@ -75,9 +74,9 @@ namespace sw09 {
 	 * Точка входа
 	 */
 	void index() {
+		message("intro");
 
 		task01();
-
 		task02();
 
 	}

@@ -69,9 +69,31 @@ $$
  * @brief  Самостоятельная работа 09
  */
 
+/* Включение необходимых библиотек
+  (см. репозиторий автора github.com/kramenob/astu-boap-sem-ii ) */
 #include "index.hpp"
 
-// не редактировать код программы
+string text;
+char ch1;
+char ch2;
+
+cin.ignore(numeric_limits<streamsize>::max(), '\n');
+cout << "Введите строку: ";
+getline(cin, text);
+
+cout << endl << "Введите символ, который нужно заменить: ";
+cin  >> ch1;
+
+cout << "Введите символ, на который нужно заменить: ";
+cin  >> ch2;
+
+for (int i = 0; i < text.length(); i++) {
+  if (text[i] == ch1) {
+    text[i] = ch2;
+  }
+}
+
+cout << endl << "Результат замены символов: " << text << endl;
 ```
 
 ---
@@ -116,6 +138,39 @@ $$
 | tac god      | cat dog   | Успех |
 
 : Таблица 2.1. Тестовые наборы данных
+
+### 2.7. Код программы
+
+```cpp
+/**
+ * @author Болотин Максим Владимирович
+ * @brief  Самостоятельная работа 09
+ */
+
+/* Включение необходимых библиотек
+  (см. репозиторий автора github.com/kramenob/astu-boap-sem-ii ) */
+#include "index.hpp"
+
+string reverseWord(string word) {
+  reverse(word.begin(), word.end());
+  return word;
+}
+
+string encryptedText;
+
+cin.ignore(numeric_limits<streamsize>::max(), '\n');
+cout << "Введите зашифрованный текст: ";
+getline(cin, encryptedText);
+
+stringstream stream(encryptedText);
+string word;
+
+cout << endl << "Расшифрованное сообщение: ";
+
+while (stream >> word) {
+  cout << reverseWord(word) << " ";
+}
+```
 
 ---
 

@@ -20,7 +20,7 @@ namespace lw15 {
 
 Занести в новый файл слова, которые начинаются и оканчиваются одной и той же буквой;
 
-Человекочитаемый вид: https://github.com/kramenob/astu-boap-sem-02/blob/main/docs/labs/15/task-statement.md
+Человекочитаемый вид: https://github.com/kramenob/astu-boap-sem-ii/blob/main/docs/labs/15/task-statement.md
 
 )";
 		}

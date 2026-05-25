@@ -27,7 +27,7 @@ namespace lw16 {
 
  5. Вызов функций заданий 3-4 выполнить в функциях `mainArrayS()`, `mainArrayD()`, `mainVector()`.
 
-Человекочитаемый вид: https://github.com/kramenob/astu-boap-sem-02/blob/main/docs/labs/16/task-statement.md
+Человекочитаемый вид: https://github.com/kramenob/astu-boap-sem-ii/blob/main/docs/labs/16/task-statement.md
 
 )";
 		} else if (key == "indy") {
