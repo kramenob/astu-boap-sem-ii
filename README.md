@@ -112,8 +112,6 @@ Output:
 Generated: ~/docs/scripts/../output/0*.docx
 ...
 ```
-```
-
 
 ---
 
