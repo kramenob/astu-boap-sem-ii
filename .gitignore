@@ -15,6 +15,7 @@
 *.bkp
 *.dtmp
 !*.drawio.svg
+**/.obsidian/
 
 # macOS
 .DS_Store
